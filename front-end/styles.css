@@ -101,8 +101,8 @@
                 }
                 
                 #home {
-                    background: url(images/flowers-nature/DSC_0275-2.jpg)no-repeat center fixed;
-                    height: auto;
+                    background: url(images/flowers-nature/DSC_0275-2.jpg)no-repeat center center fixed;
+                    height: 100%;
                     width: 100%;
                     opacity: .85;
                     -webkit-background-size: contain;
@@ -110,6 +110,7 @@
                     -o-background-size: contain;
                     background-size: cover;
                 }
+
                 /*about section*/
                 
                 #about {
