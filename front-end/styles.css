@@ -81,7 +81,7 @@
                     background-size: cover;
                 }
                 
-                @media screen and (min-width: 480px) {
+                @media screen and (min-width: 992px) {
                     #home {
                         background: url(images/flowers-nature/DSC_0275-2.jpg);
                         background-repeat: no-repeat;
@@ -106,7 +106,7 @@
                     background-size: cover;
                 }
                 
-                @media screen and (min-width: 480px) {
+                @media screen and (min-width: 992px) {
                     #about {
                         background: url(images/flowers-nature/blossom.jpg)no-repeat center center fixed;
                         height: 100%;
@@ -163,7 +163,7 @@
                     margin-top: -20px;
                 }
                 
-                @media screen and (min-width: 480px) {
+                @media screen and (min-width: 992px) {
                     #portfolio {
                         background: url(images/flowers-nature/DSC_0147.jpg)no-repeat center center fixed;
                         height: 100%;
@@ -214,30 +214,6 @@
                     }
                 }
                 
-                .image img {
-                    -webkit-transition: all 1s ease;
-                    /* Safari and Chrome */
-                    -moz-transition: all 1s ease;
-                    /* Firefox */
-                    -ms-transition: all 1s ease;
-                    /* IE 9 */
-                    -o-transition: all 1s ease;
-                    /* Opera */
-                    transition: all 1s ease;
-                }
-                
-                .image:hover img {
-                    -webkit-transform: scale(1.25);
-                    /* Safari and Chrome */
-                    -moz-transform: scale(1.25);
-                    /* Firefox */
-                    -ms-transform: scale(1.25);
-                    /* IE 9 */
-                    -o-transform: scale(1.25);
-                    /* Opera */
-                    transform: scale(1.25);
-                    z-index: 1;
-                }
                 
                 .category-name {
                     text-align: center;
@@ -249,7 +225,7 @@
                     z-index: 1;
                 }
                 
-                @media screen and (min-width: 480px) {
+                @media screen and (min-width: 992px) {
                     .category-name {
                         text-align: center;
                         font-family: 'Amatic SC', cursive;
@@ -289,7 +265,7 @@
                     background-size: cover;
                 }
                 
-                @media screen and (min-width: 480px) {
+                @media screen and (min-width: 992px) {
                     #pricing {
                         background: url(images/flowers-nature/bee.jpg)no-repeat center center fixed;
                         display: table;
@@ -353,7 +329,7 @@
                     background-size: cover;
                 }
                 
-                @media screen and (min-width: 480px) {
+                @media screen and (min-width: 992px) {
                     #contact {
                         background: url(images/flowers-nature/single-flower.jpg)no-repeat center center fixed;
                         height: 550px;
@@ -414,7 +390,7 @@
                     font-family: 'Amatic SC', cursive;
                 }
                 
-                @media screen and (min-width: 480px) {
+                @media screen and (min-width: 992px) {
                     footer {
                         background-color: #FFB6A5;
                         height: 52px;
