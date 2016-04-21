@@ -97,8 +97,6 @@
                 
                 #about {
                     background: url(images/flowers-nature/blossom.jpg)no-repeat center center;
-                    height: 100%;
-                    width: 100%;
                     z-index: -1;
                     -webkit-background-size: cover;
                     -moz-background-size: cover;
@@ -109,8 +107,6 @@
                 @media screen and (min-width: 1024px) {
                     #about {
                         background: url(images/flowers-nature/blossom.jpg)no-repeat center center fixed;
-                        height: 100%;
-                        width: 100%;
                         z-index: -1;
                         -webkit-background-size: cover;
                         -moz-background-size: cover;
