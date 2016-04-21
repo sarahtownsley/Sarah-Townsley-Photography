@@ -37,10 +37,20 @@
                 
                 .title {
                     font-family: 'Amatic SC', cursive;
-                    margin-top: 250px;
-                    font-size: 9em;
+                    margin-top: 50px;
+                    font-size: 7em;
                     color: #FFB6A5;
                     text-shadow: 1px 1px black;
+                }
+                
+                @media screen and (min-width: 480px) {
+                    .title {
+                        font-family: 'Amatic SC', cursive;
+                        margin-top: 250px;
+                        font-size: 9em;
+                        color: #FFB6A5;
+                        text-shadow: 1px 1px black;
+                    }
                 }
                 
                 .title-two {
@@ -310,7 +320,6 @@
                     font-family: 'Amatic SC', cursive;
                     height: auto;
                 }
-           
                 
                 .email-link {
                     color: black;
