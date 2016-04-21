@@ -73,14 +73,25 @@
                 
                 #home {
                     background: url(images/flowers-nature/DSC_0275-2.jpg);
-                    opacity: .85;
                     background-repeat: no-repeat;
                     background-position: center;
-                    /*                    background-attachment: fixed;*/
                     -webkit-background-size: contain;
                     -moz-background-size: contain;
                     -o-background-size: contain;
                     background-size: cover;
+                }
+                
+                @media screen and (min-width: 480px) {
+                    #home {
+                        background: url(images/flowers-nature/DSC_0275-2.jpg);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-attachment: fixed;
+                        -webkit-background-size: contain;
+                        -moz-background-size: contain;
+                        -o-background-size: contain;
+                        background-size: cover;
+                    }
                 }
                 /*about section*/
                 
@@ -93,6 +104,19 @@
                     -moz-background-size: cover;
                     -o-background-size: cover;
                     background-size: cover;
+                }
+                
+                @media screen and (min-width: 480px) {
+                    #about {
+                        background: url(images/flowers-nature/blossom.jpg)no-repeat center center fixed;
+                        height: 100%;
+                        width: 100%;
+                        z-index: -1;
+                        -webkit-background-size: cover;
+                        -moz-background-size: cover;
+                        -o-background-size: cover;
+                        background-size: cover;
+                    }
                 }
                 
                 .about-title {
@@ -131,13 +155,26 @@
                     background: url(images/flowers-nature/DSC_0147.jpg)no-repeat center center;
                     height: 100%;
                     width: 100%;
-                    opacity: .90;
                     z-index: -1;
                     -webkit-background-size: cover;
                     -moz-background-size: cover;
                     -o-background-size: cover;
                     background-size: cover;
                     margin-top: -20px;
+                }
+                
+                @media screen and (min-width: 480px) {
+                    #portfolio {
+                        background: url(images/flowers-nature/DSC_0147.jpg)no-repeat center center fixed;
+                        height: 100%;
+                        width: 100%;
+                        z-index: -1;
+                        -webkit-background-size: cover;
+                        -moz-background-size: cover;
+                        -o-background-size: cover;
+                        background-size: cover;
+                        margin-top: -20px;
+                    }
                 }
                 
                 .portfolio-title {
@@ -250,7 +287,20 @@
                     -moz-background-size: cover;
                     -o-background-size: cover;
                     background-size: cover;
-                    opacity: .85;
+                }
+                
+                @media screen and (min-width: 480px) {
+                    #pricing {
+                        background: url(images/flowers-nature/bee.jpg)no-repeat center center fixed;
+                        display: table;
+                        height: 100%;
+                        position: relative;
+                        width: 100%;
+                        -webkit-background-size: cover;
+                        -moz-background-size: cover;
+                        -o-background-size: cover;
+                        background-size: cover;
+                    }
                 }
                 
                 .pricing-title {
@@ -301,7 +351,20 @@
                     -moz-background-size: cover;
                     -o-background-size: cover;
                     background-size: cover;
-                    opacity: .85;
+                }
+                
+                @media screen and (min-width: 480px) {
+                    #contact {
+                        background: url(images/flowers-nature/single-flower.jpg)no-repeat center center fixed;
+                        height: 550px;
+                        display: table;
+                        position: relative;
+                        width: 100%;
+                        -webkit-background-size: cover;
+                        -moz-background-size: cover;
+                        -o-background-size: cover;
+                        background-size: cover;
+                    }
                 }
                 
                 .contact-title {
