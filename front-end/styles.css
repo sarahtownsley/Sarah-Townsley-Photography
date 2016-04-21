@@ -1,6 +1,11 @@
                 /*navbar*/
                 
-                .brand-title {
+                .navbar-custom {
+                    background-color: #fff;
+                    opacity: .60;
+                }
+                
+                .navbar-custom a {
                     font-family: 'Amatic SC', cursive;
                     background-color: transparent;
                     color: #FFB6A5;
@@ -8,31 +13,6 @@
                     text-shadow: 1px 1px black;
                 }
                 
-                .navbar-brand {
-                    float: left;
-                    margin-top: -40px;
-                    font-size: 25px;
-                }
-                
-                @media screen and (min-width: 480px) {
-                    .container {
-                        width: 800px;
-                    }
-                }
-                
-                .container {
-                    width: 100%;
-                }
-                
-                @media screen and (min-width: 480px) {
-                    .navbar-brand {
-                        float: left;
-                        height: 50px;
-                        padding: 55px 15px;
-                        font-size: 30px;
-                        line-height: 20px;
-                    }
-                }
                 
                 .lists {
                     font-family: 'Amatic SC', cursive;
@@ -52,70 +32,44 @@
                     width: 22px;
                     height: 2px;
                     border-radius: 1px;
-                    background-color: #fff;
+                    background-color: #000;
                 }
-                
-                .navbar-toggle .icon-bar {
-                    display: block;
-                    width: 25px;
-                    height: 5px;
-                    border-radius: 1px;
-                    margin-left: 120px;
-                }
+
                 /* home section */
                 
                 .title {
                     font-family: 'Amatic SC', cursive;
                     margin-top: 250px;
-                    font-size: 80px;
+                    font-size: 9em;
                     color: #FFB6A5;
                     text-shadow: 1px 1px black;
                 }
                 
-                @media screen and (min-width: 650px) {
-                    .title {
-                        font-family: 'Amatic SC', cursive;
-                        margin-top: 200px;
-                        font-size: 160px;
-                        color: #FFB6A5;
-                        text-shadow: 1px 1px black;
-                    }
-                }
                 
                 .title-two {
                     color: #FFB6A5;
                     text-shadow: 1px 1px black;
                     margin-top: -10px;
                     padding-bottom: 235px;
-                    font-size: 20px;
+                    font-size: 2em;
                 }
                 
-                @media screen and (min-width: 480px) {
-                    .title-two {
-                        color: #FFB6A5;
-                        text-shadow: 1px 1px black;
-                        margin-top: -10px;
-                        padding-bottom: 235px;
-                        font-size: 30px;
-                    }
-                }
                 
                 #home {
                     background: url(images/flowers-nature/DSC_0275-2.jpg);
                     opacity: .85;
                     background-repeat: no-repeat;
                     background-position: center;
-/*                    background-attachment: fixed;*/
+                    /*                    background-attachment: fixed;*/
                     -webkit-background-size: contain;
                     -moz-background-size: contain;
                     -o-background-size: contain;
                     background-size: cover;
                 }
-
                 /*about section*/
                 
                 #about {
-                    background: url(images/flowers-nature/blossom.jpg)no-repeat center center fixed;
+                    background: url(images/flowers-nature/blossom.jpg)no-repeat center center;
                     height: 100%;
                     width: 100%;
                     z-index: -1;
@@ -158,7 +112,7 @@
                 /*portfolio section*/
                 
                 #portfolio {
-                    background: url(images/flowers-nature/DSC_0147.jpg)no-repeat center center fixed;
+                    background: url(images/flowers-nature/DSC_0147.jpg)no-repeat center center;
                     height: 100%;
                     width: 100%;
                     opacity: .90;
@@ -173,7 +127,7 @@
                 .portfolio-title {
                     font-family: 'Amatic SC', cursive;
                     font-size: 60px;
-                    padding-top: 40px;
+                    padding-top: 45px;
                     color: black;
                 }
                 
@@ -271,7 +225,7 @@
                 /*pricing section*/
                 
                 #pricing {
-                    background: url(images/flowers-nature/bee.jpg)no-repeat center center fixed;
+                    background: url(images/flowers-nature/bee.jpg)no-repeat center center;
                     display: table;
                     height: 100%;
                     position: relative;
@@ -322,7 +276,7 @@
                 /*  contact section*/
                 
                 #contact {
-                    background: url(images/flowers-nature/single-flower.jpg)no-repeat center center fixed;
+                    background: url(images/flowers-nature/single-flower.jpg)no-repeat center center;
                     display: table;
                     height: 600px;
                     position: relative;
