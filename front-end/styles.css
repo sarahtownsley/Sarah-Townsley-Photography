@@ -81,7 +81,7 @@
                     background-size: cover;
                 }
                 
-                @media screen and (min-width: 992px) {
+                @media screen and (min-width: 1024px) {
                     #home {
                         background: url(images/flowers-nature/DSC_0275-2.jpg);
                         background-repeat: no-repeat;
@@ -106,7 +106,7 @@
                     background-size: cover;
                 }
                 
-                @media screen and (min-width: 992px) {
+                @media screen and (min-width: 1024px) {
                     #about {
                         background: url(images/flowers-nature/blossom.jpg)no-repeat center center fixed;
                         height: 100%;
@@ -163,7 +163,7 @@
                     margin-top: -20px;
                 }
                 
-                @media screen and (min-width: 992px) {
+                @media screen and (min-width: 1024px) {
                     #portfolio {
                         background: url(images/flowers-nature/DSC_0147.jpg)no-repeat center center fixed;
                         height: 100%;
@@ -214,7 +214,6 @@
                     }
                 }
                 
-                
                 .category-name {
                     text-align: center;
                     font-family: 'Amatic SC', cursive;
@@ -225,7 +224,7 @@
                     z-index: 1;
                 }
                 
-                @media screen and (min-width: 992px) {
+                @media screen and (min-width: 480px) {
                     .category-name {
                         text-align: center;
                         font-family: 'Amatic SC', cursive;
@@ -265,7 +264,7 @@
                     background-size: cover;
                 }
                 
-                @media screen and (min-width: 992px) {
+                @media screen and (min-width: 1024px) {
                     #pricing {
                         background: url(images/flowers-nature/bee.jpg)no-repeat center center fixed;
                         display: table;
@@ -329,7 +328,7 @@
                     background-size: cover;
                 }
                 
-                @media screen and (min-width: 992px) {
+                @media screen and (min-width: 1024px) {
                     #contact {
                         background: url(images/flowers-nature/single-flower.jpg)no-repeat center center fixed;
                         height: 550px;
@@ -390,7 +389,7 @@
                     font-family: 'Amatic SC', cursive;
                 }
                 
-                @media screen and (min-width: 992px) {
+                @media screen and (min-width: 480px) {
                     footer {
                         background-color: #FFB6A5;
                         height: 52px;
