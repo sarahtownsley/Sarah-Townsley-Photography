@@ -13,7 +13,6 @@
                     text-shadow: 1px 1px black;
                 }
                 
-                
                 .lists {
                     font-family: 'Amatic SC', cursive;
                     float: right;
@@ -34,7 +33,6 @@
                     border-radius: 1px;
                     background-color: #000;
                 }
-
                 /* home section */
                 
                 .title {
@@ -45,7 +43,6 @@
                     text-shadow: 1px 1px black;
                 }
                 
-                
                 .title-two {
                     color: #FFB6A5;
                     text-shadow: 1px 1px black;
@@ -53,7 +50,6 @@
                     padding-bottom: 235px;
                     font-size: 1.5em;
                 }
-                
                 
                 #home {
                     background: url(images/flowers-nature/DSC_0275-2.jpg);
@@ -277,8 +273,8 @@
                 
                 #contact {
                     background: url(images/flowers-nature/single-flower.jpg)no-repeat center center;
+                    height: 550px;
                     display: table;
-                    height: 600px;
                     position: relative;
                     width: 100%;
                     -webkit-background-size: cover;
@@ -303,8 +299,8 @@
                 }
                 
                 .contact-icon {
-                    height: 70px;
-                    width: 70px;
+                    height: 60px;
+                    width: 60px;
                     margin-top: 10px;
                     align-content: center;
                 }
@@ -312,6 +308,15 @@
                 .email {
                     font-size: 3em;
                     font-family: 'Amatic SC', cursive;
+                    height: auto;
+                }
+           
+                
+                .email-link {
+                    color: black;
+                    text-decoration: none;
+                    background-color: floralwhite;
+                    opacity: .70;
                 }
                 /*footer*/
                 
