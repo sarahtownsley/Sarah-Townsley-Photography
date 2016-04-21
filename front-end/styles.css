@@ -102,7 +102,7 @@
                 
                 #home {
                     background: url(images/flowers-nature/DSC_0275-2.jpg) no-repeat center center fixed;
-                    height: 100%;
+                    height: auto;
                     width: 100%;
                     opacity: .85;
                     -webkit-background-size: cover;
