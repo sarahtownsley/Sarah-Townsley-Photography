@@ -1,0 +1,468 @@
+                /*navbar*/
+                
+                .brand-title {
+                    font-family: 'Amatic SC', cursive;
+                    background-color: transparent;
+                    color: #FFB6A5;
+                    font-size: 30px;
+                    text-shadow: 1px 1px black;
+                }
+                
+                .navbar-brand {
+                    float: left;
+                    margin-top: -40px;
+                    font-size: 25px;
+                }
+                
+                @media screen and (min-width: 480px) {
+                    .container {
+                        width: 800px;
+                    }
+                }
+                
+                .container {
+                    width: 100%;
+                }
+                
+                @media screen and (min-width: 480px) {
+                    .navbar-brand {
+                        float: left;
+                        height: 50px;
+                        padding: 55px 15px;
+                        font-size: 30px;
+                        line-height: 20px;
+                    }
+                }
+                
+                .lists {
+                    font-family: 'Amatic SC', cursive;
+                    float: right;
+                    font-size: 30px;
+                    text-shadow: 1px 1px black;
+                }
+                
+                li a {
+                    margin-left: 15px;
+                    margin-right: 15px;
+                    color: #FFB6A5;
+                }
+                
+                .icon-bar {
+                    display: block;
+                    width: 22px;
+                    height: 2px;
+                    border-radius: 1px;
+                    background-color: #fff;
+                }
+                
+                .navbar-toggle .icon-bar {
+                    display: block;
+                    width: 25px;
+                    height: 5px;
+                    border-radius: 1px;
+                    margin-left: 120px;
+                }
+                /* home section */
+                
+                .title {
+                    font-family: 'Amatic SC', cursive;
+                    margin-top: 250px;
+                    font-size: 80px;
+                    color: #FFB6A5;
+                    text-shadow: 1px 1px black;
+                }
+                
+                @media screen and (min-width: 650px) {
+                    .title {
+                        font-family: 'Amatic SC', cursive;
+                        margin-top: 200px;
+                        font-size: 160px;
+                        color: #FFB6A5;
+                        text-shadow: 1px 1px black;
+                    }
+                }
+                
+                .title-two {
+                    color: #FFB6A5;
+                    text-shadow: 1px 1px black;
+                    margin-top: -10px;
+                    padding-bottom: 235px;
+                    font-size: 20px;
+                }
+                
+                @media screen and (min-width: 480px) {
+                    .title-two {
+                        color: #FFB6A5;
+                        text-shadow: 1px 1px black;
+                        margin-top: -10px;
+                        padding-bottom: 235px;
+                        font-size: 30px;
+                    }
+                }
+                
+                #home {
+                    background: url(images/flowers-nature/DSC_0275-2.jpg) no-repeat center center fixed;
+                    height: 100%;
+                    width: 100%;
+                    opacity: .85;
+                    -webkit-background-size: cover;
+                    -moz-background-size: cover;
+                    -o-background-size: cover;
+                    background-size: cover;
+                }
+                /*about section*/
+                
+                #about {
+                    background: url(images/flowers-nature/blossom.jpg)no-repeat center center fixed;
+                    height: 100%;
+                    width: 100%;
+                    z-index: -1;
+                    -webkit-background-size: cover;
+                    -moz-background-size: cover;
+                    -o-background-size: cover;
+                    background-size: cover;
+                }
+                
+                .about-title {
+                    font-family: 'Amatic SC', cursive;
+                    font-size: 60px;
+                    margin-top: 150px;
+                }
+                
+                .about-me-p {
+                    font-size: 30px;
+                    margin-top: 10px;
+                }
+                
+                .about-p {
+                    font-family: 'Open Sans Condensed', sans-serif;
+                    margin-top: 10px;
+                    font-size: 20px;
+                }
+                
+                #about .panel {
+                    opacity: 0.90;
+                    height: 100%;
+                    margin-top: 50px;
+                    margin-bottom: 40px;
+                }
+                
+                .sarah-pic {
+                    border: 1px solid #FFB6A5;
+                    border-radius: 50px;
+                    height: 250px;
+                    width: auto;
+                }
+                /*portfolio section*/
+                
+                #portfolio {
+                    background: url(images/flowers-nature/DSC_0147.jpg)no-repeat center center fixed;
+                    height: 100%;
+                    width: 100%;
+                    opacity: .90;
+                    z-index: -1;
+                    -webkit-background-size: cover;
+                    -moz-background-size: cover;
+                    -o-background-size: cover;
+                    background-size: cover;
+                    margin-top: -20px;
+                }
+                
+                .portfolio-title {
+                    font-family: 'Amatic SC', cursive;
+                    font-size: 60px;
+                    padding-top: 40px;
+                    color: black;
+                }
+                
+                .portfolio-category-image {
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    height: 180px;
+                    width: auto;
+                }
+                
+                @media screen and (min-width: 480px) {
+                    .portfolio-category-image {
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        height: 280px;
+                        width: auto;
+                    }
+                }
+                
+                .image {
+                    padding-top: 0px;
+                    padding-bottom: 0px;
+                }
+                
+                @media screen and (min-width: 780px) {
+                    .image {
+                        padding-top: 40px;
+                        padding-bottom: 110px;
+                    }
+                }
+                
+                .image img {
+                    -webkit-transition: all 1s ease;
+                    /* Safari and Chrome */
+                    -moz-transition: all 1s ease;
+                    /* Firefox */
+                    -ms-transition: all 1s ease;
+                    /* IE 9 */
+                    -o-transition: all 1s ease;
+                    /* Opera */
+                    transition: all 1s ease;
+                }
+                
+                .image:hover img {
+                    -webkit-transform: scale(1.25);
+                    /* Safari and Chrome */
+                    -moz-transform: scale(1.25);
+                    /* Firefox */
+                    -ms-transform: scale(1.25);
+                    /* IE 9 */
+                    -o-transform: scale(1.25);
+                    /* Opera */
+                    transform: scale(1.25);
+                    z-index: 1;
+                }
+                
+                .category-name {
+                    text-align: center;
+                    font-family: 'Amatic SC', cursive;
+                    font-size: 30px;
+                    color: #fff;
+                    text-shadow: 1px 1px black;
+                    opacity: .80;
+                    z-index: 1;
+                }
+                
+                @media screen and (min-width: 480px) {
+                    .category-name {
+                        text-align: center;
+                        font-family: 'Amatic SC', cursive;
+                        font-size: 40px;
+                        padding-top: 5px;
+                        color: #fff;
+                        text-shadow: 1px 1px black;
+                        opacity: .80;
+                        z-index: 1;
+                    }
+                }
+                
+                .click {
+                    color: #000;
+                    font-size: 30px;
+                    font-family: 'Amatic SC', cursive;
+                    background-color: white;
+                    opacity: .50;
+                }
+                
+                .btn-danger {
+                    font-size: 30px;
+                    width: auto;
+                    height: auto;
+                }
+                /*pricing section*/
+                
+                #pricing {
+                    background: url(images/flowers-nature/bee.jpg)no-repeat center center fixed;
+                    display: table;
+                    height: 100%;
+                    position: relative;
+                    width: 100%;
+                    -webkit-background-size: cover;
+                    -moz-background-size: cover;
+                    -o-background-size: cover;
+                    background-size: cover;
+                    opacity: .85;
+                }
+                
+                .pricing-title {
+                    font-family: 'Amatic SC', cursive;
+                    font-size: 50px;
+                    padding-top: 30px;
+                    color: black;
+                    text-shadow: 1px 1px white;
+                }
+                
+                .panel-title {
+                    font-size: 50px;
+                    font-family: 'Amatic SC', cursive;
+                    color: black;
+                }
+                
+                .panel-heading {
+                    height: auto;
+                }
+                
+                #pricing .panel {
+                    opacity: 0.80;
+                    height: auto;
+                    margin-top: 15px;
+                }
+                
+                .lead {
+                    font-size: 30px;
+                    font-family: 'Amatic SC', cursive;
+                }
+                
+                .package {
+                    font-size: 20px;
+                    color: #FFB6A5;
+                    text-shadow: 1px 1px black;
+                    padding-top: 10px;
+                    padding-bottom: 20px;
+                }
+                /*  contact section*/
+                
+                #contact {
+                    background: url(images/flowers-nature/single-flower.jpg)no-repeat center center fixed;
+                    display: table;
+                    height: 600px;
+                    position: relative;
+                    width: 100%;
+                    -webkit-background-size: cover;
+                    -moz-background-size: cover;
+                    -o-background-size: cover;
+                    background-size: cover;
+                    opacity: .85;
+                }
+                
+                .contact-title {
+                    font-family: 'Amatic SC', cursive;
+                    font-size: 50px;
+                    padding-top: 30px;
+                    color: #000;
+                }
+                
+                .form-title {
+                    font-family: 'Amatic SC', cursive;
+                    color: #000;
+                    font-size: 45px;
+                }
+                
+                .input {
+                    border-radius: 5px;
+                    margin-bottom: 5px;
+                    width: 350px;
+                }
+                
+                button {
+                    width: 170px;
+                    height: 35px;
+                    color: #000;
+                    font-size: 20px;
+                    background-color: #FFB6A5;
+                    opacity: .90;
+                    margin-bottom: 10px;
+                    font-family: 'Amatic SC', cursive;
+                }
+                
+                button:focus {
+                    width: 170px;
+                    height: 35px;
+                    color: #000;
+                    font-size: 20px;
+                    background-color: lightgreen;
+                    opacity: .90;
+                    margin-bottom: 10px;
+                    font-family: 'Amatic SC', cursive;
+                    -webkit-transition-delay: 2s;
+                    /* Safari */
+                    transition-delay: 2s;
+                }
+                
+                .contact-social {
+                    font-size: 45px;
+                    font-family: 'Amatic SC', cursive;
+                    margin-top: 50px;
+                    color: #000;
+                }
+                
+                .contact-icon {
+                    height: 70px;
+                    width: 70px;
+                    margin-top: 10px;
+                    align-content: center;
+                }
+                /*footer*/
+                
+                footer {
+                    background-color: #FFB6A5;
+                    height: 52px;
+                    width: 100%;
+                    padding-top: 6px;
+                    background-position: center;
+                    background-size: cover;
+                    color: white;
+                    font-size: 20px;
+                    font-family: 'Amatic SC', cursive;
+                }
+                
+                @media screen and (min-width: 480px) {
+                    footer {
+                        background-color: #FFB6A5;
+                        height: 52px;
+                        width: 100%;
+                        padding-top: 6px;
+                        background-position: center;
+                        background-size: cover;
+                        color: white;
+                        font-size: 30px;
+                        font-family: 'Amatic SC', cursive;
+                    }
+                }
+                /*FAMILY PHOTOGRAPHY SECTION*/
+                
+                #family-gallery {
+                    display: none;
+                }
+                
+                #kid-gallery {
+                    display: none;
+                }
+                
+                #pet-gallery {
+                    display: none;
+                }
+                
+                #nature-gallery {
+                    display: none;
+                }
+                
+                .gallery-title {
+                    font-family: 'Amatic SC', cursive;
+                    font-size: 50px;
+                    color: black;
+                    padding-top: 40px;
+                }
+                
+                .gallery-image {
+                    height: 130px;
+                    width: auto;
+                    margin-bottom: 10px;
+                    margin-top: 10px;
+                }
+                
+                .gallery-image-portrait {
+                    width: 150px;
+                    height: auto;
+                }
+                
+                .h1,
+                .h2,
+                .h3,
+                h1,
+                h2,
+                h3 {
+                    margin-top: 5px;
+                    margin-bottom: 10px;
+                }
+                
+                .btn-danger {
+                    margin: 10px;
+                }
