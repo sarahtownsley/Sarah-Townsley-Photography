@@ -105,10 +105,9 @@
                     height: auto;
                     width: 100%;
                     opacity: .85;
-                    background-size: contain;
-                    -webkit-background-size: cover;
-                    -moz-background-size: cover;
-                    -o-background-size: cover;
+                    -webkit-background-size: contain;
+                    -moz-background-size: contain;
+                    -o-background-size: contain;
                     background-size: cover;
                 }
                 /*about section*/
