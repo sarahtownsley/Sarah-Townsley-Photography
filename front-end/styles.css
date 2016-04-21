@@ -101,16 +101,15 @@
                 }
                 
                 #home {
-                    background: url(images/flowers-nature/DSC_0275-2.jpg) no-repeat center fixed;
+                    background: url(images/flowers-nature/DSC_0275-2.jpg)no-repeat center fixed;
                     height: auto;
                     width: 100%;
                     opacity: .85;
-/*
+                    background-size: contain;
                     -webkit-background-size: cover;
                     -moz-background-size: cover;
                     -o-background-size: cover;
                     background-size: cover;
-*/
                 }
                 /*about section*/
                 
@@ -341,43 +340,6 @@
                     color: #000;
                 }
                 
-                .form-title {
-                    font-family: 'Amatic SC', cursive;
-                    color: #000;
-                    font-size: 45px;
-                }
-                
-                .input {
-                    border-radius: 5px;
-                    margin-bottom: 5px;
-                    width: 350px;
-                }
-                
-                button {
-                    width: 170px;
-                    height: 35px;
-                    color: #000;
-                    font-size: 20px;
-                    background-color: #FFB6A5;
-                    opacity: .90;
-                    margin-bottom: 10px;
-                    font-family: 'Amatic SC', cursive;
-                }
-                
-                button:focus {
-                    width: 170px;
-                    height: 35px;
-                    color: #000;
-                    font-size: 20px;
-                    background-color: lightgreen;
-                    opacity: .90;
-                    margin-bottom: 10px;
-                    font-family: 'Amatic SC', cursive;
-                    -webkit-transition-delay: 2s;
-                    /* Safari */
-                    transition-delay: 2s;
-                }
-                
                 .contact-social {
                     font-size: 45px;
                     font-family: 'Amatic SC', cursive;
@@ -390,6 +352,11 @@
                     width: 70px;
                     margin-top: 10px;
                     align-content: center;
+                }
+                
+                .email {
+                    font-size: 3em;
+                    font-family: 'Amatic SC', cursive;
                 }
                 /*footer*/
                 
